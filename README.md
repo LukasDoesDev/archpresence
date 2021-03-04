@@ -16,7 +16,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 
 # Run archpresence
-
+python main.py
 ```
 
 ### How to exit venv:
