@@ -1,6 +1,6 @@
 # archpresence
 
-## Usage:
+## Installation:
 ```sh
 # Install virtualenv globally
 pip install virtualenv
@@ -14,13 +14,8 @@ source venv/bin/activate
 
 # Install requirements
 pip install -r requirements.txt
-
-# Run archpresence
-python main.py
 ```
-
-### How to exit venv:
-- Type `deactivate` in the terminal.
+## Usage:
 
 ### How to get back to the venv to update requirements, run script, etc:
 - Type `source venv/bin/activate` in the terminal.
@@ -28,3 +23,6 @@ python main.py
 ### How to run archpresence:
 - Make sure you're in the virtual enviroment
 - Type `python main.py` in the terminal.
+
+### How to exit venv:
+- Type `deactivate` in the terminal.
