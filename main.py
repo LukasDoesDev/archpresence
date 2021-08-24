@@ -29,5 +29,8 @@ RPC.update(
 ) # Updates our presence
 
 while True:
-    time.sleep(15)
+    try:
+        time.sleep(15)
+    except KeyboardInterrupt:
+        break
 
